@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE43A3F61DCE153C00EC92B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A3F51DCE153C00EC92B2 /* main.m */; };
+		AE43A3F91DCE153C00EC92B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A3F81DCE153C00EC92B2 /* AppDelegate.m */; };
+		AE43A3FC1DCE153C00EC92B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A3FB1DCE153C00EC92B2 /* ViewController.m */; };
+		AE43A3FF1DCE153C00EC92B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE43A3FD1DCE153C00EC92B2 /* Main.storyboard */; };
+		AE43A4011DCE153C00EC92B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE43A4001DCE153C00EC92B2 /* Assets.xcassets */; };
+		AE43A4041DCE153C00EC92B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE43A4021DCE153C00EC92B2 /* LaunchScreen.storyboard */; };
+		AE43A41D1DCE15CB00EC92B2 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A41C1DCE15CB00EC92B2 /* PresentViewController.m */; };
+		AE43A4291DCEB78100EC92B2 /* UINavigationController+YJFullGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A4201DCEB78100EC92B2 /* UINavigationController+YJFullGesture.m */; };
+		AE43A42A1DCEB78100EC92B2 /* UIViewController+YJFullGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A4221DCEB78100EC92B2 /* UIViewController+YJFullGesture.m */; };
+		AE43A42B1DCEB78100EC92B2 /* YJGestureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A4241DCEB78100EC92B2 /* YJGestureDelegate.m */; };
+		AE43A42C1DCEB78100EC92B2 /* YJInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A4261DCEB78100EC92B2 /* YJInteractiveTransition.m */; };
+		AE43A42D1DCEB78100EC92B2 /* YJPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43A4281DCEB78100EC92B2 /* YJPopAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE43A3F11DCE153C00EC92B2 /* YJNaviFullGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJNaviFullGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE43A3F51DCE153C00EC92B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE43A3F71DCE153C00EC92B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE43A3F81DCE153C00EC92B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE43A3FA1DCE153C00EC92B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE43A3FB1DCE153C00EC92B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE43A3FE1DCE153C00EC92B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE43A4001DCE153C00EC92B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE43A4031DCE153C00EC92B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE43A4051DCE153C00EC92B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE43A41B1DCE15CB00EC92B2 /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		AE43A41C1DCE15CB00EC92B2 /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		AE43A41F1DCEB78100EC92B2 /* UINavigationController+YJFullGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+YJFullGesture.h"; sourceTree = "<group>"; };
+		AE43A4201DCEB78100EC92B2 /* UINavigationController+YJFullGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+YJFullGesture.m"; sourceTree = "<group>"; };
+		AE43A4211DCEB78100EC92B2 /* UIViewController+YJFullGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YJFullGesture.h"; sourceTree = "<group>"; };
+		AE43A4221DCEB78100EC92B2 /* UIViewController+YJFullGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YJFullGesture.m"; sourceTree = "<group>"; };
+		AE43A4231DCEB78100EC92B2 /* YJGestureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGestureDelegate.h; sourceTree = "<group>"; };
+		AE43A4241DCEB78100EC92B2 /* YJGestureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGestureDelegate.m; sourceTree = "<group>"; };
+		AE43A4251DCEB78100EC92B2 /* YJInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJInteractiveTransition.h; sourceTree = "<group>"; };
+		AE43A4261DCEB78100EC92B2 /* YJInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJInteractiveTransition.m; sourceTree = "<group>"; };
+		AE43A4271DCEB78100EC92B2 /* YJPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJPopAnimation.h; sourceTree = "<group>"; };
+		AE43A4281DCEB78100EC92B2 /* YJPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJPopAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE43A3EE1DCE153C00EC92B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE43A3E81DCE153C00EC92B2 = {
+			isa = PBXGroup;
+			children = (
+				AE43A3F31DCE153C00EC92B2 /* YJNaviFullGesture */,
+				AE43A3F21DCE153C00EC92B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE43A3F21DCE153C00EC92B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE43A3F11DCE153C00EC92B2 /* YJNaviFullGesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE43A3F31DCE153C00EC92B2 /* YJNaviFullGesture */ = {
+			isa = PBXGroup;
+			children = (
+				AE43A41E1DCEB78100EC92B2 /* YJNaviFullGesture */,
+				AE43A3F71DCE153C00EC92B2 /* AppDelegate.h */,
+				AE43A3F81DCE153C00EC92B2 /* AppDelegate.m */,
+				AE43A3FA1DCE153C00EC92B2 /* ViewController.h */,
+				AE43A3FB1DCE153C00EC92B2 /* ViewController.m */,
+				AE43A41B1DCE15CB00EC92B2 /* PresentViewController.h */,
+				AE43A41C1DCE15CB00EC92B2 /* PresentViewController.m */,
+				AE43A3FD1DCE153C00EC92B2 /* Main.storyboard */,
+				AE43A4001DCE153C00EC92B2 /* Assets.xcassets */,
+				AE43A4021DCE153C00EC92B2 /* LaunchScreen.storyboard */,
+				AE43A4051DCE153C00EC92B2 /* Info.plist */,
+				AE43A3F41DCE153C00EC92B2 /* Supporting Files */,
+			);
+			path = YJNaviFullGesture;
+			sourceTree = "<group>";
+		};
+		AE43A3F41DCE153C00EC92B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE43A3F51DCE153C00EC92B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE43A41E1DCEB78100EC92B2 /* YJNaviFullGesture */ = {
+			isa = PBXGroup;
+			children = (
+				AE43A41F1DCEB78100EC92B2 /* UINavigationController+YJFullGesture.h */,
+				AE43A4201DCEB78100EC92B2 /* UINavigationController+YJFullGesture.m */,
+				AE43A4211DCEB78100EC92B2 /* UIViewController+YJFullGesture.h */,
+				AE43A4221DCEB78100EC92B2 /* UIViewController+YJFullGesture.m */,
+				AE43A4231DCEB78100EC92B2 /* YJGestureDelegate.h */,
+				AE43A4241DCEB78100EC92B2 /* YJGestureDelegate.m */,
+				AE43A4251DCEB78100EC92B2 /* YJInteractiveTransition.h */,
+				AE43A4261DCEB78100EC92B2 /* YJInteractiveTransition.m */,
+				AE43A4271DCEB78100EC92B2 /* YJPopAnimation.h */,
+				AE43A4281DCEB78100EC92B2 /* YJPopAnimation.m */,
+			);
+			path = YJNaviFullGesture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE43A3F01DCE153C00EC92B2 /* YJNaviFullGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE43A4081DCE153C00EC92B2 /* Build configuration list for PBXNativeTarget "YJNaviFullGesture" */;
+			buildPhases = (
+				AE43A3ED1DCE153C00EC92B2 /* Sources */,
+				AE43A3EE1DCE153C00EC92B2 /* Frameworks */,
+				AE43A3EF1DCE153C00EC92B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJNaviFullGesture;
+			productName = YJNaviFullGesture;
+			productReference = AE43A3F11DCE153C00EC92B2 /* YJNaviFullGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE43A3E91DCE153C00EC92B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yj;
+				TargetAttributes = {
+					AE43A3F01DCE153C00EC92B2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE43A3EC1DCE153C00EC92B2 /* Build configuration list for PBXProject "YJNaviFullGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE43A3E81DCE153C00EC92B2;
+			productRefGroup = AE43A3F21DCE153C00EC92B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE43A3F01DCE153C00EC92B2 /* YJNaviFullGesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE43A3EF1DCE153C00EC92B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE43A4041DCE153C00EC92B2 /* LaunchScreen.storyboard in Resources */,
+				AE43A4011DCE153C00EC92B2 /* Assets.xcassets in Resources */,
+				AE43A3FF1DCE153C00EC92B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE43A3ED1DCE153C00EC92B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE43A42C1DCEB78100EC92B2 /* YJInteractiveTransition.m in Sources */,
+				AE43A42A1DCEB78100EC92B2 /* UIViewController+YJFullGesture.m in Sources */,
+				AE43A3FC1DCE153C00EC92B2 /* ViewController.m in Sources */,
+				AE43A42B1DCEB78100EC92B2 /* YJGestureDelegate.m in Sources */,
+				AE43A3F91DCE153C00EC92B2 /* AppDelegate.m in Sources */,
+				AE43A4291DCEB78100EC92B2 /* UINavigationController+YJFullGesture.m in Sources */,
+				AE43A3F61DCE153C00EC92B2 /* main.m in Sources */,
+				AE43A42D1DCEB78100EC92B2 /* YJPopAnimation.m in Sources */,
+				AE43A41D1DCE15CB00EC92B2 /* PresentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE43A3FD1DCE153C00EC92B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE43A3FE1DCE153C00EC92B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE43A4021DCE153C00EC92B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE43A4031DCE153C00EC92B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE43A4061DCE153C00EC92B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE43A4071DCE153C00EC92B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE43A4091DCE153C00EC92B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJNaviFullGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangjie.YJNaviFullGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE43A40A1DCE153C00EC92B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJNaviFullGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangjie.YJNaviFullGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE43A3EC1DCE153C00EC92B2 /* Build configuration list for PBXProject "YJNaviFullGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE43A4061DCE153C00EC92B2 /* Debug */,
+				AE43A4071DCE153C00EC92B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE43A4081DCE153C00EC92B2 /* Build configuration list for PBXNativeTarget "YJNaviFullGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE43A4091DCE153C00EC92B2 /* Debug */,
+				AE43A40A1DCE153C00EC92B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE43A3E91DCE153C00EC92B2 /* Project object */;
+}
