@@ -1,29 +1,25 @@
 //
-//  YJGestureDelegate.m
-//  自定义转场动画
+//  GestureDelegate.m
+//  LibDemo
 //
-//  Created by yangjie on 16/11/5.
-//  Copyright © 2016年 yj. All rights reserved.
+//  Created by yzl on 2020/2/20.
+//  Copyright © 2020 Y&Y. All rights reserved.
 //
 
-#import "YJGestureDelegate.h"
-#import "UIViewController+YJFullGesture.h"
-@interface YJGestureDelegate ()
+#import "GestureDelegate.h"
+#import "UIViewController+FullGesture.h"
+@interface GestureDelegate ()
 
 /** navi */
 @property (nonatomic,weak) UINavigationController *navigationController;
 @end
+@implementation GestureDelegate
 
-@implementation YJGestureDelegate
 - (id)initWithViewController:(UIViewController*)viewController {
 
-    
     if (self = [super init]) {
-        
-        
         self.navigationController = (UINavigationController*)viewController;
     }
-    
     return self;
 }
 
@@ -42,13 +38,10 @@
     
     UIViewController *topVC = self.navigationController.viewControllers.lastObject;
     
-    if (topVC.yj_disabledFullGesture) {
+    if (topVC.disabledFullGesture) {
         // 关闭手势响应
         return NO;
     }
-    
-   
     return YES;
 }
-
 @end
